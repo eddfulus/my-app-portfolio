@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffdfeaf1"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/my_title"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <Button
+
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:background="#fff08c35"
+        android:onClick="showMessage"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="@string/media_streamer"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#fff08c35"
+        android:onClick="showMessage2"
+        android:paddingLeft="55dp"
+        android:paddingRight="55dp"
+        android:text="@string/super_duo1"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#fff08c35"
+        android:onClick="showMessage3"
+        android:paddingLeft="53dp"
+        android:paddingRight="53dp"
+        android:text="@string/super_duo2"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#fff08c35"
+        android:onClick="showMessage4"
+        android:paddingLeft="43dp"
+        android:paddingRight="43dp"
+        android:text="@string/ant_terminator"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#fff08c35"
+        android:onClick="showMessage5"
+        android:paddingLeft="45dp"
+        android:paddingRight="45dp"
+        android:text="@string/materialize"/>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#fff01a14"
+        android:onClick="showMessage6"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="@string/capstone"/>
+
+</RelativeLayout>
